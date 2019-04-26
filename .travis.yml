@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: uMpMhLDkpvM6iqcH2Wg4qO1EDmxE4A1sYKRJ1es7TuvcMY50FVFX2KKiuq0a6s8nxxIJoqFS4UZvqF2nd6eA0ybZZKFJMpYRkFHIeU1wZohZQPHUWl1/X90zgvbLmCVbvfavdNO2tsa2HD2rv9iDjkX8Gde99Oh/sH8ctyVGYU0SIbC0DqP5LXnF74nyDreI9lnAmufHfzP4Nv33lZQEP49QLN21ajmMLDUL1p3XGMmIxkKFoT1dEYVeVsti+28kcmOxZ+0wmjLhVu9dOVDFrjIJfTOrfiYvJJsh8oURcAl9OfH/cbOkSjUvagPaME+0KVPHXhmeRAwaS+CJZlWOfvYouMwvOeS2nwm3EvNka1GQYEtBDy+E/lHVFi81XxDu08qvSVswAdaK/TihsQTdUNKirKyKERGqDkDvrMLO+XOw86vAfrSBpGvc74WUdg60l/J8OZw44hYgeQEO9nWeUbHtdYHzeWagYOEm84xvPOE8L60pjpY1+Wmf4CXOrr8O/r5CxTC/Nn+0WTxJgoJHV5hwsdD30aiyOW+Y2f4lxXil++/AWVEY5Rr2VB8pthtgP9/HsaANVlizY9mDf8zSsMyTUgYNIjwPhBJg9FpuWn8+euhGloN+oTSNLqn5kPZXSQ7MstqfZmKPbR7F/pzG2FjQEXKXN6C3MsAwUfPwD3c=
+  app: desolate-depths-28278
+  on:
+    repo: mulan114/chow-blog-server
